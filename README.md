@@ -1,3 +1,5 @@
+JEEVA ADITHIYAN SK 212225060102
+
 # FACTORIAL-OF-A-NUMBER
 # FACTORIAL OF A NUMBER USING 8051 (Keil)
 
@@ -32,29 +34,12 @@ To write and execute an Assembly language program to perform the factorial of a 
 ---
 
 ## PROGRAM
-```asm
-ORG 0000H
-MOV DPTR,#4500H
-MOVX A,@DPTR
-MOV R0,A
-INC DPTR
-ACALL FACTORIAL
-MOVX @DPTR,A
-SJMP THIN
-FACTORIAL:DEC R0
-CJNE R0,#01H,PRODUCT
-SJMP THICK
-PRODUCT:MOV B,R0
-MUL AB
-ACALL FACTORIAL
-THICK: RET
-THIN:RET
-END
+<img width="1080" height="1005" alt="image" src="https://github.com/user-attachments/assets/7fe2bb2d-edca-422c-8727-fd97d0cdabbd" />
 
-```
+
 OUTPUT
+<img width="1079" height="792" alt="image" src="https://github.com/user-attachments/assets/3897cec7-ff11-4208-ad1b-5d7b48f019b4" />
 
-(Keil output screenshot can be inserted here)
 
 ---
 MANUAL CALCULATIONS
